@@ -1,0 +1,127 @@
+/* Colors ------------------------- */
+:root{
+    --dkpurple: #3e1746;
+    --purple: #5A2164;
+    --grey: rgba(214,214,214,1);
+    --white: #fff;
+    --hoverlink: #e6b800;
+    --link: #997a00;
+    --charcoal: #343434;
+}
+/* General ------------------------- */
+body{
+    background: var(--dkpurple);
+    background: url(images/background.jpg) repeat center center fixed;
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin: 1em auto;
+    padding: 1em;
+}
+footer{
+    background-color: var(--charcoal);
+    padding: 1.5em 2em 2.25em 2em;
+    color: var(--white);
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+}
+.wrap{
+    max-width: 1170px;
+    margin: auto;
+}
+/* Typography ---------------------- */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+
+.masthead h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: .75em;
+}
+h3{
+    color: var(--dkpurple);
+}
+p{
+    line-height: 1.6;
+    color: var(--white);
+}
+/* Cards ------------------------ */
+.card {
+    background: var(--white);
+    max-width: 100%;
+    min-height: 150px;
+    margin-bottom: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 2px;
+}
+.card-title{
+    padding: 0em 1em .75em 1em;
+}
+.card img{
+    width: 100%;
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/* Links and Hover / Active States */
+a:focus{
+    color: var(--white);
+}
+a:hover, a:focus{
+    text-decoration: none;
+}
+footer a:visited{
+    color: var(--grey);
+}
+li a, .card-title a{
+    color: var(--link);
+    letter-spacing: 0.005em;
+    font-family: "Montserrat", sans-serif;
+}
+li a:visited, .card-title a:visited{
+    color: var(--purple);
+}
+li a:hover, .card-title a:hover, footer a, footer a:hover{
+    color: var(--hoverlink);
+}
+/* Accordion ----------------------- */
+.panel.panel-default{
+    border: 0;
+    border-color: transparant;
+    box-shadow: 0;
+    margin: 1em auto;
+    box-sizing: border-box;
+}
+.panel-heading{
+    padding: 1.5em 2em;
+}
+.panel-body{
+    padding: .5em 2em;
+}
+.panel-default>.panel-heading {
+    /* heading of the panel, or the accordion that gets clicked to show resources */
+    color: white;
+    background-color: var(--purple);
+    border-radius: 0px;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    /* styles body of the panel (where the resource info goes) */
+    background-color: var(--white);
+    border-top: 0px solid black;
+}
+/* Accordion Hover */
+.panel-default>.panel-heading:hover {
+    border: none;
+    background: var(--dkpurple);
+    background: -webkit-linear-gradient(to top, var(--dkpurple), var(--purple));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, var(--dkpurple), var(--purple)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
