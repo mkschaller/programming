@@ -6,7 +6,7 @@
     --white: #fff;
     --hoverlink: #e6b800;
     --link: #997a00;
-    --charcoal: #111;
+    --purpleblack: #18091a;
 }
 /* General ------------------------- */
 body{
@@ -21,7 +21,7 @@ body{
     padding: 1em;
 }
 footer{
-    background-color: var(--charcoal);
+    background-color: var(--purpleblack);
     padding: 1.5em 2em 2.25em 2em;
     color: var(--white);
     box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
@@ -71,6 +71,9 @@ p{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 /* Links and Hover / Active States */
+a{
+    font-family: "Montserrat", sans-serif;
+}
 a:focus{
     color: var(--white);
 }
@@ -83,7 +86,6 @@ footer a:visited{
 li a, .card-title a{
     color: var(--link);
     letter-spacing: 0.005em;
-    font-family: "Montserrat", sans-serif;
 }
 li a:visited, .card-title a:visited{
     color: var(--purple);
