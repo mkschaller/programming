@@ -1,2 +1,2 @@
-# programming
-Programming resources page for the Digital Media department at McHenry County College.
+# Programming Resources on MCCDGM
+The CIS and Digital Media Department at McHenry County College is creating a programming resources page. This website will be linked to on Canvas for students to reference. The resources pages will include video references and downloads organized by topic. While these videos are not required for students to view, this resource can be used in addition to the textbook.
