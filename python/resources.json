@@ -1,0 +1,356 @@
+{
+    "general": [
+      {
+        "title": "Factorial, square root, and GCD",
+        "link": "https://www.lynda.com/Python-tutorials/Factorial-square-root-GCD/550133/585951-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Calculating statistics with Python (mean, mode, median)",
+        "link": "https://www.lynda.com/Python-tutorials/Calculating-statistics-Python/550133/585953-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Whitespace and comments",
+        "link": "https://www.lynda.com/Python-tutorials/Whitespace-comments/614299/687481-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Fixing Errors in PyCharm",
+        "link": "https://youtu.be/9akh6e0Teuk",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Formatting Currency in Python",
+        "link": "https://youtu.be/uj2hcAqhNao",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Writing Pseudocode",
+        "link": "https://youtu.be/4GQGuazvq7o",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Python Programming (Learn Python in one video)",
+        "link": "https://youtu.be/N4mEzFDjqtA",
+        "source": "YouTube"
+      },
+      {
+        "title": "Formatting Output in Python (PDF)",
+        "link": "resources/Formatting_Output_in_Python_v3.pdf",
+        "source": "Downloads"
+      },
+      {
+        "title": "Writing Pseudocode (PDF)",
+        "link": "resources/Writing_Pseudocode.pdf",
+        "source": "Downloads"
+      },
+      {
+        "title": "Python Cheat Sheet",
+        "link": "https://www.cheatography.com/davechild/cheat-sheets/python/",
+        "source": "Online Resource"
+      },
+      {
+        "title": "Intro to order of operations from Khan Academy",
+        "link": "https://www.khanacademy.org/math/pre-algebra/pre-algebra-arith-prop/pre-algebra-order-of-operations/v/introduction-to-order-of-operations",
+        "source": "Math Help"
+      },
+      {
+        "title": "Python Programming/Basic Math",
+        "link": "https://en.wikibooks.org/wiki/Python_Programming/Basic_Math",
+        "source": "Math Help"
+      }
+    ],
+    "debugging": [
+      {
+        "title": "Variables and expressions",
+        "link": "https://www.lynda.com/Python-tutorials/Variables-expressions/661773/707223-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Lens Mode and Intentions (debugging help in PyCharm)",
+        "link": "https://www.lynda.com/Python-tutorials/Lens-Mode-Intentions/590828/629428-4.html?srchtrk=index%3a10%0alinktypeid%3a2%0aq%3astrings+python+3%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Debugging",
+        "link": "https://www.lynda.com/Python-tutorials/Debugging/590828/629435-4.html?srchtrk=index%3a10%0alinktypeid%3a2%0aq%3astrings+python+3%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      }
+    ],
+    "compProgramming": [
+      {
+        "title": "Building Hello World",
+        "link": "https://www.lynda.com/Python-tutorials/Building-Hello-World/661773/707222-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Hello World in PyCharm EDU",
+        "link": "https://youtu.be/DKb1R5ktcyk",
+        "source": "Lynda.com"
+      }
+    ],
+    "inProcessOut": [
+      {
+        "title": "Variables and expressions",
+        "link": "https://www.lynda.com/Python-tutorials/Variables-expressions/661773/707223-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Input and output",
+        "link": "https://www.lynda.com/Python-tutorials/Input-output/550133/585958-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Python Madlibs",
+        "link": "https://youtu.be/4NxdiGTViTk",
+        "source": "MCCMeri"
+      }
+    ],
+    "decideBoolean": [
+      {
+        "title": "Conditional structures",
+        "link": "https://www.lynda.com/Python-tutorials/Conditional-structures/661773/707225-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Logical operators: And, or, not",
+        "link": "https://www.lynda.com/Python-tutorials/Logical-operators/550133/585941-4.html",
+        "source": "Lynda.com"
+      }
+    ],
+    "repeatLinks": [
+      {
+        "title": "Loops",
+        "link": "https://www.lynda.com/Python-tutorials/Loops/661773/707226-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Python random",
+        "link": "https://www.lynda.com/Python-tutorials/Python-random/550133/585952-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Sentinel Values - Python",
+        "link": "https://youtu.be/L3QZNaq9PCI",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Nested Loops in Python",
+        "link": "https://youtu.be/LGyHTsF-SFs",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Nested Loops in Python (PDF)",
+        "link": "resources/Nested_Loops_in_Python.pdf",
+        "source": "Downloads"
+      }
+    ],
+    "functions": [
+      {
+        "title": "Python Functions",
+        "link": "https://www.lynda.com/Python-tutorials/Python-functions/661773/707224-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Return Value",
+        "link": "https://youtu.be/HIkA8QgoFNY",
+        "source": "MCCMeri"
+      }
+    ],
+    "filesExceptions": [
+      {
+        "title": "Reading and writing files",
+        "link": "https://www.lynda.com/Python-tutorials/Reading-writing-files/661773/707234-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Files and file writing",
+        "link": "https://www.lynda.com/Python-tutorials/Files-file-writing/550133/585959-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "File seeking in Python",
+        "link": "https://www.lynda.com/Python-tutorials/File-seeking-Python/550133/585960-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Iterative files",
+        "link": "https://www.lynda.com/Python-tutorials/Iterative-files/550133/585961-4.html",
+        "source": "Lynda.com"
+      }
+    ],
+    "listsTuples": [
+      {
+        "title": "Using Python lists and the slicing syntax",
+        "link": "https://www.lynda.com/Numpy-tutorials/Using-Python-lists-slicing-syntax/419162/446708-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Review of list (array) in Python",
+        "link": "https://www.lynda.com/Software-Development-tutorials/Review-list-array-Python/576698/605453-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Two methods for Python list iteration",
+        "link": "https://www.lynda.com/Software-Development-tutorials/Two-methods-Python-list-iteration/576698/605454-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Python Lists",
+        "link": "https://youtu.be/fLFUR2V3yK4",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Creating a Word Jumble in Python",
+        "link": "https://youtu.be/f6yoU6-Lr7Q",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Fortune Teller - Python Lists",
+        "link": "https://youtu.be/D1EfdhCmBzo",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Python - Creating a Database with Lists and Tuples",
+        "link": "https://youtu.be/nZIuAfZvVL0",
+        "source": "MCCMeri"
+      }
+    ],
+    "strings": [
+      {
+        "title": "Review of string in Python",
+        "link": "https://www.lynda.com/Software-Development-tutorials/Review-string-Python/576698/605460-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Common string methods",
+        "link": "https://www.lynda.com/Python-tutorials/Common-string-methods/614299/687537-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Splitting and joining",
+        "link": "https://www.lynda.com/Python-tutorials/Splitting-joining/614299/687539-4.html",
+        "source": "Lynda.com"
+      }
+    ],
+    "dictionaries": [
+      {
+        "title": "Overview of dictionary/hash table",
+        "link": "https://www.lynda.com/Software-Development-tutorials/Overview-dictionaryhash-table/576698/605481-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Using Python dictionaries",
+        "link": "https://www.lynda.com/Numpy-tutorials/Using-Python-dictionaries/419162/446709-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Loading the dictionary",
+        "link": "https://www.lynda.com/Numpy-tutorials/Loading-dictionary/419162/446713-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Using Dictionaries in Python",
+        "link": "https://youtu.be/q71SNwbtkZU",
+        "source": "MCCMeri"
+      }
+    ],
+    "classes": [
+      {
+        "title": "Understanding object-oriented programming",
+        "link": "https://www.lynda.com/Python-tutorials/Understanding-object-oriented-programming/369187/419174-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Understanding classes and objects",
+        "link": "https://www.lynda.com/Python-tutorials/Understanding-classes-objects/62226/70985-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Classes",
+        "link": "https://www.lynda.com/Python-tutorials/Classes/122467/142563-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Creating a database object",
+        "link": "https://www.lynda.com/Python-tutorials/Creating-database-object/62226/71010-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Classes and Objects",
+        "link": "https://youtu.be/on1juCNNtVo",
+        "source": "MCCMeri"
+      }
+    ],
+    "inheritance": [
+      {
+        "title": "Working with inheritance and polymorphism",
+        "link": "https://www.lynda.com/Python-tutorials/Working-inheritance-polymorphism/369187/419175-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Understanding inheritance",
+        "link": "https://www.lynda.com/Python-tutorials/Understanding-inheritance/62226/70988-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Python - Inheritance 1",
+        "link": "https://youtu.be/v75bcSt3-WQ",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Python Inheritance Part 2 - Subclass",
+        "link": "https://youtu.be/FEH1H621KFU",
+        "source": "MCCMeri"
+      },
+      {
+        "title": "Python Inheritance Part 3 - Using the Classes",
+        "link": "https://youtu.be/rD5wn1Ntb4k",
+        "source": "MCCMeri"
+      }
+    ],
+    "recursion": [
+      {
+        "title": "Recursion (video is in JavaScript, but the logic applies to Python)",
+        "link": "https://www.lynda.com/JavaScript-tutorials/Recursion/585272/634552-4.html",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "16. Recursion",
+        "link": "https://cscircles.cemc.uwaterloo.ca/16-recursion/",
+        "source": "Online Resource"
+      }
+    ],
+    "gui": [
+      {
+        "title": "Introduction to Python GUI",
+        "link": "https://www.lynda.com/Python-tutorials/Introduction-Python-GUI/604235/631720-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Adding a label to the GUI form",
+        "link": "https://www.lynda.com/Python-tutorials/Adding-label-GUI-form/604235/631721-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Creating buttons and text box widgets",
+        "link": "https://www.lynda.com/Python-tutorials/Creating-buttons-text-box-widgets/604235/631722-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Exploring widgets",
+        "link": "https://www.lynda.com/Python-tutorials/Exploring-widgets/604235/631723-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },{
+        "title": "Adding extra features",
+        "link": "https://www.lynda.com/Python-tutorials/Adding-extra-features/604235/631724-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      },
+      {
+        "title": "Adding several widgets in a loop",
+        "link": "https://www.lynda.com/Python-tutorials/Adding-several-widgets-loop/604235/631725-4.html?srchtrk=index%3a7%0alinktypeid%3a2%0aq%3apython%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2",
+        "source": "Lynda.com"
+      }
+    ]
+  }
