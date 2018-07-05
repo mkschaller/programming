@@ -21,10 +21,9 @@ body{
     padding: 1em;
 }
 footer{
-    background-color: var(--purpleblack);
-    padding: 1.5em 2em 2.25em 2em;
+    background: var(--dkpurple);
+    padding: 1.5em 2em 3.5em 2em;
     color: var(--white);
-    box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
 }
 .wrap{
     max-width: 1170px;
@@ -50,6 +49,9 @@ h3{
 p{
     line-height: 1.6;
     color: var(--white);
+}
+li {
+    margin-bottom: 8px;
 }
 /* Cards ------------------------ */
 .card {
@@ -126,4 +128,14 @@ li a:hover, .card-title a:hover, footer a, footer a:hover{
     background: linear-gradient(to top, var(--dkpurple), var(--purple)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* Source Badges ----------------------- */
+.badge {
+    background: var(--purple);
+    color: var(--white);
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 5px 10px;
 }
