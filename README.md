@@ -18,3 +18,5 @@ All of the resources are in the resources.json file. Each topic is an array cont
 * Downloads
 * YouTube
 
+
+# [Visit the page here.](https://programming.mccdgm.net)
