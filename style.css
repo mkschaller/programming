@@ -5,23 +5,24 @@
     --grey: rgba(214,214,214,1);
     --white: #fff;
     --hoverlink: #e6b800;
-    --link: #997a00;
+    --link: #9b8323;
     --purpleblack: #18091a;
 }
+
 /* General ------------------------- */
 body{
     background: var(--dkpurple);
     background: url(images/background.jpg) repeat center center fixed;
     background-size: cover;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 .container{
     margin: 1em auto;
     padding: 1em;
 }
 footer{
-    background: var(--dkpurple);
+    background: var(--purpleblack);
     padding: 1.5em 2em 3.5em 2em;
     color: var(--white);
 }
@@ -29,19 +30,30 @@ footer{
     max-width: 1170px;
     margin: auto;
 }
-/* Typography ---------------------- */
+header {
+    margin-bottom: 2em;
+}
 
+/* Typography ---------------------- */
 h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     letter-spacing: 0.015em;
 }
-
 .masthead h1 {
     text-transform: uppercase;
     text-align: center;
     color: var(--white);
     margin-bottom: .75em;
+}
+.python-title {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2.8em;
+    text-align: left;
+    transform: rotate(-3deg);
+    color: var(--hoverlink) !important;
+    letter-spacing: 0.05em;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 h3{
     color: var(--dkpurple);
@@ -53,6 +65,7 @@ p{
 li {
     margin-bottom: 8px;
 }
+
 /* Cards ------------------------ */
 .card {
     background: var(--white);
@@ -83,25 +96,37 @@ a:hover, a:focus{
     text-decoration: none;
 }
 footer a:visited{
-    color: var(--grey);
+    color: var(--hoverlink);
 }
 li a, .card-title a{
     color: var(--link);
     letter-spacing: 0.005em;
 }
-li a:visited, .card-title a:visited{
+li a:visited, .card-title a:visited, li a:focus{
     color: var(--purple);
 }
-li a:hover, .card-title a:hover, footer a, footer a:hover{
+li a:hover, .card-title a:hover {
+    color: var(--purpleblack);
+}
+footer a {
     color: var(--hoverlink);
 }
+footer a:hover {
+    color: var(--grey);
+}
+footer strong {
+    color: var(--grey);
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+
 /* Accordion ----------------------- */
 .panel.panel-default{
     border: 0;
-    border-color: transparant;
     box-shadow: 0;
     margin: 1em auto;
     box-sizing: border-box;
+    background: transparent;
 }
 .panel-heading{
     padding: 1.5em 2em;
@@ -114,12 +139,17 @@ li a:hover, .card-title a:hover, footer a, footer a:hover{
     color: white;
     background-color: var(--purple);
     border-radius: 0px;
+    border: 0px solid transparent !important;
 }
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
     /* styles body of the panel (where the resource info goes) */
     background-color: var(--white);
     border-top: 0px solid black;
 }
+.panel-group .panel {
+    border-radius: 0;
+}
+
 /* Accordion Hover */
 .panel-default>.panel-heading:hover {
     border: none;
@@ -135,7 +165,16 @@ li a:hover, .card-title a:hover, footer a, footer a:hover{
     background: var(--purple);
     color: var(--white);
     font-size: 10px;
+    font-weight: 400;
     text-transform: uppercase;
     margin-left: 10px;
     padding: 5px 10px;
+}
+
+/* Media Queries ----------------------- */
+@media (min-width: 1024px) {
+    .python-title {
+        font-size: 3.2em;
+        letter-spacing: 0.1em;
+    }
 }

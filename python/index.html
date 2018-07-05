@@ -10,24 +10,33 @@
 <!-- Stylesheet -->
 <link rel="stylesheet" href="/style.css">
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700|Luckiest+Guy" rel="stylesheet">
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  /* Page Specific Styles to override main template styles
+   */
+  body {
+    border-top: 1.5em solid var(--hoverlink);
+    background-color: #3e1746; /* Fall back for old browsers */
+    background: #3e1746 url(../images/stardust.png);
+  }
+</style>
 </head>
 <body>
 
 <div class="container">
   <div class="row">
-    <header class="masthead col-sm-4">
-        <h1>Python Resources</h1>
+    <header class="masthead col-sm-5 col-md-4">
+        <h1 class="python-title">Python Resources</h1>
         <p>These video resources and downloads are arranged by topic to supplement the textbook used for PRG105 Programming Logic. They are optional but may help further explain topics.</p>
         <p>The type of resource is indicated next to the link.</p>
     </header>
 
   <!-- Python PRG105 Accordion -->
-  <div class="panel-group col-sm-8" id="accordion">
+  <div class="panel-group col-sm-7 col-md-8" id="accordion">
 
     <!-- General -->
     <div class="panel panel-default">
